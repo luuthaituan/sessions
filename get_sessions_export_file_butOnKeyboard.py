@@ -1,7 +1,6 @@
 import csv
 import mysql.connector
 from binascii import unhexlify
-from tabulate import tabulate
 
 # Function to convert hexadecimal to plaintext
 def hex_to_plaintext(hex_string):
@@ -15,7 +14,7 @@ db_connection = mysql.connector.connect(
     host="localhost",
     user="thaituan",
     password="tuan89",
-    database="testdb"
+    database="mysql"
 )
 
 cursor = db_connection.cursor()
@@ -40,10 +39,8 @@ else:
 
     headers = ["Time", "User", "Thread ID", "Server ID", "Command", "Argument"]
 
-    # print(tabulate(table_data, headers=headers, tablefmt='simple'))
-
     # Get user input
-    user = input("Enter the username: ")
+    user = input("Nhập tên người dùng: ")
 
     # Filter by user
     filtered_data = [row for row in table_data if user in row[1]]

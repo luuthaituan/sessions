@@ -1,0 +1,33 @@
+start_time,user_host,query_time,lock_time,rows_sent,rows_examined,db,last_insert_id,insert_id,server_id,sql_text,thread_id
+2024-05-17 22:25:21.853632,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000503,0:00:00.000001,0,0,,0,0,1,b'set autocommit=1',8
+2024-05-17 22:25:21.862619,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000572,0:00:00.000002,1,1,,0,0,1,b'SELECT current_user()',8
+2024-05-17 22:25:21.863667,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000465,0:00:00.000002,0,0,,0,0,1,b'SET CHARACTER SET utf8',8
+2024-05-17 22:25:21.864629,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000435,0:00:00.000001,0,0,,0,0,1,b'SET NAMES utf8',8
+2024-05-17 22:25:21.865284,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000372,0:00:00.000001,0,0,,0,0,1,b'SET SQL_SAFE_UPDATES=1',8
+2024-05-17 22:25:21.866253,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000694,0:00:00.000002,1,1,,0,0,1,b'SELECT CONNECTION_ID()',8
+2024-05-17 22:25:21.868238,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.001923,0:00:00.000007,1,1,,0,0,1,"b""show character set where charset = 'utf8mb4'""",8
+2024-05-17 22:25:21.868876,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000522,0:00:00.000001,0,0,,0,0,1,"b""SET NAMES 'utf8mb4'""",8
+2024-05-17 22:25:21.872238,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.002742,0:00:00.000007,1,1,,0,0,1,"b""SHOW SESSION STATUS LIKE 'Ssl_cipher'""",8
+2024-05-17 22:25:21.873659,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000888,0:00:00.000002,0,0,classicmodels,0,0,1,b'USE `classicmodels`',8
+2024-05-17 22:25:21.874972,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000802,0:00:00.000002,0,0,classicmodels,0,0,1,b'set autocommit=1',8
+2024-05-17 22:25:21.878514,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.001131,0:00:00.000005,11,11,classicmodels,0,0,1,"b'select * from mysql.slow_log\nLIMIT 0, 1000'",8
+2024-05-17 22:25:22.138478,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000939,0:00:00.000002,0,0,,0,0,1,b'set autocommit=1',9
+2024-05-17 22:25:22.139107,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000462,0:00:00.000001,1,1,,0,0,1,b'SELECT current_user()',9
+2024-05-17 22:25:22.140710,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000999,0:00:00.000002,0,0,,0,0,1,b'SET CHARACTER SET utf8',9
+2024-05-17 22:25:22.141000,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000172,0:00:00.000001,0,0,,0,0,1,b'SET NAMES utf8',9
+2024-05-17 22:25:22.146524,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.004517,0:00:00.000008,1,1,,0,0,1,"b""SHOW SESSION VARIABLES LIKE 'sql_mode'""",9
+2024-05-17 22:25:22.147786,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000725,0:00:00.000001,1,1,,0,0,1,b'SELECT CONNECTION_ID()',9
+2024-05-17 22:25:22.149142,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000837,0:00:00.000003,1,1,,0,0,1,"b""show character set where charset = 'utf8mb4'""",9
+2024-05-17 22:25:22.149964,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000434,0:00:00.000001,0,0,,0,0,1,"b""SET NAMES 'utf8mb4'""",9
+2024-05-17 22:25:22.152113,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.001780,0:00:00.000002,1,1,,0,0,1,"b""SHOW SESSION STATUS LIKE 'Ssl_cipher'""",9
+2024-05-17 22:25:22.152872,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000431,0:00:00.000001,0,0,classicmodels,0,0,1,b'USE `classicmodels`',9
+2024-05-17 22:25:22.153676,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000408,0:00:00.000001,0,0,classicmodels,0,0,1,b'set autocommit=1',9
+2024-05-17 22:25:22.158659,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.004615,0:00:00.000024,1,2,classicmodels,0,0,1,b'SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 8',9
+2024-05-17 22:25:22.159743,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000408,0:00:00,1,2,classicmodels,0,0,1,b'Ping',9
+2024-05-17 22:25:22.163012,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.001345,0:00:00.000014,0,0,classicmodels,0,0,1,b'SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 13',9
+2024-05-17 22:25:22.164003,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000415,0:00:00,0,0,classicmodels,0,0,1,b'Ping',9
+2024-05-17 22:25:22.165881,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.001521,0:00:00.000011,0,0,classicmodels,0,0,1,b'SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 13',9
+2024-05-17 22:25:22.170052,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.002856,0:00:00.000010,0,4,classicmodels,0,0,1,b'SHOW INDEX FROM `mysql`.`slow_log`',9
+2024-05-17 22:25:32.210068,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000147,0:00:00.000001,0,0,mysql,0,0,1,"b""SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'""",10
+2024-05-17 22:25:32.210444,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000116,0:00:00.000001,0,0,mysql,0,0,1,b'SET NAMES utf8mb4',10
+2024-05-17 22:25:32.210651,thaituan[thaituan] @ localhost [127.0.0.1],0:00:00.000089,0:00:00.000001,0,0,mysql,0,0,1,b'set autocommit=0',10

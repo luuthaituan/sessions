@@ -1,0 +1,32 @@
+Time,User,Thread ID,Server ID,Command,Argument
+2024-05-17 06:58:12.680843,root[root] @ localhost [],8,1,Query,create database testdb
+2024-05-17 06:58:16.686874,root[root] @ localhost [],8,1,Query,SELECT DATABASE()
+2024-05-17 06:58:16.687435,root[root] @ localhost [],8,1,Init DB,testdb
+2024-05-17 06:58:16.688890,root[root] @ localhost [],8,1,Query,show databases
+2024-05-17 06:58:16.695042,root[root] @ localhost [],8,1,Query,show tables
+2024-05-17 06:58:22.157903,root[root] @ localhost [],8,1,Query,SELECT DATABASE()
+2024-05-17 06:58:22.160455,root[root] @ localhost [],8,1,Init DB,testdb
+2024-05-17 06:58:29.965428,root[root] @ localhost [],8,1,Query,"CREATE TABLE `general_log` (
+   `event_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+                          ON UPDATE CURRENT_TIMESTAMP,
+   `user_host` mediumtext NOT NULL,
+   `thread_id` bigint(21) unsigned NOT NULL,
+   `server_id` int(10) unsigned NOT NULL,
+   `command_type` varchar(64) NOT NULL,
+   `argument` mediumtext NOT NULL
+  ) ENGINE=CSV DEFAULT CHARSET=utf8 COMMENT='General log'"
+2024-05-17 06:58:38.515042,root[root] @ localhost [],8,1,Query,SET global general_log = 1
+2024-05-17 06:58:47.640519,root[root] @ localhost [],8,1,Query,"SELECT
+    *
+FROM
+    mysql.general_log"
+2024-05-17 06:59:58.503942,root[root] @ localhost [],8,1,Quit,
+2024-05-17 21:52:39.005945,[root] @ localhost [],12,1,Connect,root@localhost on  using Socket
+2024-05-17 21:52:39.063621,root[root] @ localhost [],12,1,Query,select @@version_comment limit 1
+2024-05-17 21:52:40.505180,root[root] @ localhost [],12,1,Query,SET GLOBAL slow_query_log = 'ON'
+2024-05-17 21:53:04.711592,root[root] @ localhost [],12,1,Query,SET GLOBAL long_query_time = 2
+2024-05-17 21:53:12.275066,root[root] @ localhost [],12,1,Query,SET GLOBAL log_output = 'TABLE'
+2024-05-17 21:53:19.516320,root[root] @ localhost [],12,1,Query,SHOW VARIABLES LIKE '%slow%'
+2024-05-17 21:55:03.742136,root[root] @ localhost [],12,1,Query,SET GLOBAL log_output = 'TABLE'
+2024-05-17 21:55:10.239426,root[root] @ localhost [],12,1,Query,SHOW VARIABLES LIKE 'log_output'
+2024-05-17 21:55:19.745702,root[root] @ localhost [],12,1,Query,SELECT * FROM mysql.slow_log
