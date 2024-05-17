@@ -1,0 +1,223 @@
+Time,User,Thread ID,Server ID,Command,Argument
+2024-05-17 06:59:08.976721,[thaituan] @ localhost [127.0.0.1],9,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 06:59:08.977471,[thaituan] @ localhost [127.0.0.1],9,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 06:59:12.954241,[thaituan] @ localhost [127.0.0.1],10,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 06:59:12.954534,[thaituan] @ localhost [127.0.0.1],10,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 06:59:13.211193,[thaituan] @ localhost [127.0.0.1],11,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 06:59:13.211439,[thaituan] @ localhost [127.0.0.1],11,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 06:59:17.369858,[thaituan] @ localhost [127.0.0.1],12,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 06:59:17.370044,[thaituan] @ localhost [127.0.0.1],12,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 06:59:29.762961,[thaituan] @ localhost [127.0.0.1],13,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 06:59:29.763134,[thaituan] @ localhost [127.0.0.1],13,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 06:59:33.149397,[thaituan] @ localhost [127.0.0.1],14,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 06:59:33.149565,[thaituan] @ localhost [127.0.0.1],14,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 07:00:32.339635,[thaituan] @ localhost [127.0.0.1],15,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 07:00:32.339841,[thaituan] @ localhost [127.0.0.1],15,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 07:00:46.142649,[thaituan] @ localhost [127.0.0.1],16,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 07:00:46.142900,[thaituan] @ localhost [127.0.0.1],16,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: NO)
+2024-05-17 07:00:48.962401,[thaituan] @ localhost [127.0.0.1],17,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 07:00:48.962564,[thaituan] @ localhost [127.0.0.1],17,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 07:01:39.397748,[thaituan] @ localhost [127.0.0.1],18,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 07:01:39.397929,[thaituan] @ localhost [127.0.0.1],18,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 07:08:48.867275,[thaituan] @ localhost [127.0.0.1],19,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 07:08:48.868532,[thaituan] @ localhost [127.0.0.1],19,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: YES)
+2024-05-17 16:47:08.077682,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `global_grants`
+2024-05-17 16:47:08.084723,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `gtid_executed`
+2024-05-17 16:47:08.086532,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `help_category`
+2024-05-17 16:47:08.091441,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `help_keyword`
+2024-05-17 16:47:08.094851,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `help_relation`
+2024-05-17 16:47:08.098249,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `help_topic`
+2024-05-17 16:47:08.101245,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `innodb_index_stats`
+2024-05-17 16:47:08.105706,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `innodb_table_stats`
+2024-05-17 16:47:08.114194,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `password_history`
+2024-05-17 16:47:08.117358,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `plugin`
+2024-05-17 16:47:08.121245,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `procs_priv`
+2024-05-17 16:47:08.124621,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `proxies_priv`
+2024-05-17 16:47:08.128167,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `replication_asynchronous_connection_failover`
+2024-05-17 16:47:08.134733,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `replication_asynchronous_connection_failover_managed`
+2024-05-17 16:47:08.138842,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `replication_group_configuration_version`
+2024-05-17 16:47:08.142268,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `replication_group_member_actions`
+2024-05-17 16:47:08.145117,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `role_edges`
+2024-05-17 16:47:08.148675,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `server_cost`
+2024-05-17 16:47:08.151800,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `servers`
+2024-05-17 16:47:08.156387,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `slave_master_info`
+2024-05-17 16:47:08.159862,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `slave_relay_log_info`
+2024-05-17 16:47:08.162174,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `slave_worker_info`
+2024-05-17 16:47:08.163304,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `slow_log`
+2024-05-17 16:47:08.165565,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `tables_priv`
+2024-05-17 16:47:08.169051,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `time_zone`
+2024-05-17 16:47:08.172395,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `time_zone_leap_second`
+2024-05-17 16:47:08.177384,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `time_zone_name`
+2024-05-17 16:47:08.181421,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `time_zone_transition`
+2024-05-17 16:47:08.184568,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `time_zone_transition_type`
+2024-05-17 16:47:08.188328,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `user`
+2024-05-17 16:47:08.196013,thaituan[thaituan] @ localhost [],11,1,Init DB,sys
+2024-05-17 16:47:08.196196,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.200493,thaituan[thaituan] @ localhost [],11,1,Init DB,sys
+2024-05-17 16:47:08.200622,thaituan[thaituan] @ localhost [],11,1,Query,REPAIR TABLE `sys_config`
+2024-05-17 16:47:08.224552,thaituan[thaituan] @ localhost [],11,1,Init DB,testdb
+2024-05-17 16:47:08.224738,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.225762,thaituan[thaituan] @ localhost [],11,1,Init DB,testdb
+2024-05-17 16:47:08.225841,thaituan[thaituan] @ localhost [],11,1,Init DB,thaituan
+2024-05-17 16:47:08.225923,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.226693,thaituan[thaituan] @ localhost [],11,1,Init DB,thaituan
+2024-05-17 16:47:08.226824,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs
+2024-05-17 16:47:08.226911,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.227919,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs
+2024-05-17 16:47:08.228061,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs2
+2024-05-17 16:47:08.228160,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.228993,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs2
+2024-05-17 16:47:08.229135,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs2333
+2024-05-17 16:47:08.229238,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.230068,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs2333
+2024-05-17 16:47:08.230187,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs233fdsfds3
+2024-05-17 16:47:08.230274,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.231286,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs233fdsfds3
+2024-05-17 16:47:08.231441,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs233fdsfds3fgcvcvfhgdgfd
+2024-05-17 16:47:08.231545,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.232344,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs233fdsfds3fgcvcvfhgdgfd
+2024-05-17 16:47:08.232468,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs233fdsfds3fghgdgfd
+2024-05-17 16:47:08.232555,thaituan[thaituan] @ localhost [],11,1,Query,SHOW /*!50002 FULL*/ TABLES
+2024-05-17 16:47:08.233318,thaituan[thaituan] @ localhost [],11,1,Init DB,xemlogs233fdsfds3fghgdgfd
+2024-05-17 16:47:08.234785,thaituan[thaituan] @ localhost [],11,1,Quit,
+2024-05-17 16:47:34.493697,[thaituan] @ localhost [],12,1,Connect,thaituan@localhost on  using Socket
+2024-05-17 16:47:34.493996,thaituan[thaituan] @ localhost [],12,1,Init DB,mysql
+2024-05-17 16:47:34.494167,thaituan[thaituan] @ localhost [],12,1,Query,REPAIR TABLE `general_log`
+2024-05-17 16:47:34.498015,thaituan[thaituan] @ localhost [],12,1,Quit,
+2024-05-17 16:47:40.530125,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"select * from general_log
+LIMIT 0, 1000"
+2024-05-17 16:47:40.902199,[thaituan] @ localhost [127.0.0.1],13,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 16:47:40.902413,thaituan[thaituan] @ localhost [127.0.0.1],13,1,Connect,Access denied for user 'thaituan'@'localhost' (using password: NO)
+2024-05-17 16:47:43.839829,[thaituan] @ localhost [127.0.0.1],14,1,Connect,thaituan@localhost on  using SSL/TLS
+2024-05-17 16:47:43.840742,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,set autocommit=1
+2024-05-17 16:47:43.841672,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT current_user()
+2024-05-17 16:47:43.842673,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SET CHARACTER SET utf8
+2024-05-17 16:47:43.843459,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SET NAMES utf8
+2024-05-17 16:47:43.844271,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW SESSION VARIABLES LIKE 'sql_mode'
+2024-05-17 16:47:43.849967,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT CONNECTION_ID()
+2024-05-17 16:47:43.851285,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,show character set where charset = 'utf8mb4'
+2024-05-17 16:47:43.852866,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SET NAMES 'utf8mb4'
+2024-05-17 16:47:43.854135,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW SESSION STATUS LIKE 'Ssl_cipher'
+2024-05-17 16:47:43.857120,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,USE `mysql`
+2024-05-17 16:47:43.858088,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,set autocommit=1
+2024-05-17 16:47:43.859048,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 16:47:43.864198,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 36
+2024-05-17 16:47:43.867000,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 36
+2024-05-17 16:47:43.870095,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW INDEX FROM `mysql`.`general_log`
+2024-05-17 16:48:14.369029,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,CREATE DATABASE xemlogs233fdsfds3fgcvcvew4234fhgdgfd
+2024-05-17 16:48:24.312065,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"SELECT * FROM  mysql.general_log
+LIMIT 0, 1000"
+2024-05-17 16:48:24.346586,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 16:48:24.351584,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 41
+2024-05-17 16:48:24.354277,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 41
+2024-05-17 16:48:24.358681,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW INDEX FROM `mysql`.`general_log`
+2024-05-17 16:49:24.873412,[thaituan] @ localhost [127.0.0.1],15,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 16:49:24.874252,thaituan[thaituan] @ localhost [127.0.0.1],15,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 16:49:24.874491,thaituan[thaituan] @ localhost [127.0.0.1],15,1,Query,SET NAMES utf8mb4
+2024-05-17 16:49:24.874697,thaituan[thaituan] @ localhost [127.0.0.1],15,1,Query,set autocommit=0
+2024-05-17 16:49:24.875061,thaituan[thaituan] @ localhost [127.0.0.1],15,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 16:49:24.924422,thaituan[thaituan] @ localhost [127.0.0.1],15,1,Quit,
+2024-05-17 16:50:04.007617,[thaituan] @ localhost [127.0.0.1],16,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 16:50:04.008527,thaituan[thaituan] @ localhost [127.0.0.1],16,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 16:50:04.008771,thaituan[thaituan] @ localhost [127.0.0.1],16,1,Query,SET NAMES utf8mb4
+2024-05-17 16:50:04.008955,thaituan[thaituan] @ localhost [127.0.0.1],16,1,Query,set autocommit=0
+2024-05-17 16:50:04.009560,thaituan[thaituan] @ localhost [127.0.0.1],16,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 16:50:04.059919,thaituan[thaituan] @ localhost [127.0.0.1],16,1,Quit,
+2024-05-17 16:50:08.739568,[thaituan] @ localhost [127.0.0.1],17,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 16:50:08.740395,thaituan[thaituan] @ localhost [127.0.0.1],17,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 16:50:08.740667,thaituan[thaituan] @ localhost [127.0.0.1],17,1,Query,SET NAMES utf8mb4
+2024-05-17 16:50:08.740872,thaituan[thaituan] @ localhost [127.0.0.1],17,1,Query,set autocommit=0
+2024-05-17 16:50:08.741228,thaituan[thaituan] @ localhost [127.0.0.1],17,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 16:50:08.795164,thaituan[thaituan] @ localhost [127.0.0.1],17,1,Quit,
+2024-05-17 16:50:15.672545,[thaituan] @ localhost [127.0.0.1],18,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 16:50:15.673454,thaituan[thaituan] @ localhost [127.0.0.1],18,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 16:50:15.673734,thaituan[thaituan] @ localhost [127.0.0.1],18,1,Query,SET NAMES utf8mb4
+2024-05-17 16:50:15.673902,thaituan[thaituan] @ localhost [127.0.0.1],18,1,Query,set autocommit=0
+2024-05-17 16:50:15.674541,thaituan[thaituan] @ localhost [127.0.0.1],18,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 16:50:15.729632,thaituan[thaituan] @ localhost [127.0.0.1],18,1,Quit,
+2024-05-17 16:50:19.119099,[thaituan] @ localhost [127.0.0.1],19,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 16:50:19.119957,thaituan[thaituan] @ localhost [127.0.0.1],19,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 16:50:19.120225,thaituan[thaituan] @ localhost [127.0.0.1],19,1,Query,SET NAMES utf8mb4
+2024-05-17 16:50:19.120410,thaituan[thaituan] @ localhost [127.0.0.1],19,1,Query,set autocommit=0
+2024-05-17 16:50:19.120765,thaituan[thaituan] @ localhost [127.0.0.1],19,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 16:50:19.177197,thaituan[thaituan] @ localhost [127.0.0.1],19,1,Quit,
+2024-05-17 16:51:15.358689,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"select user,host from mysql.user
+LIMIT 0, 1000"
+2024-05-17 16:51:15.368695,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 16:51:15.372146,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 44
+2024-05-17 16:51:15.374669,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 44
+2024-05-17 16:51:15.377346,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW INDEX FROM `mysql`.`user`
+2024-05-17 16:51:58.413374,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"SELECT current_user()
+LIMIT 0, 1000"
+2024-05-17 16:51:58.471244,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 16:51:58.479915,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 47
+2024-05-17 16:51:58.483103,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 47
+2024-05-17 17:04:09.735038,[thaituan] @ localhost [127.0.0.1],20,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 17:04:09.738954,thaituan[thaituan] @ localhost [127.0.0.1],20,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 17:04:09.739497,thaituan[thaituan] @ localhost [127.0.0.1],20,1,Query,SET NAMES utf8mb4
+2024-05-17 17:04:09.739766,thaituan[thaituan] @ localhost [127.0.0.1],20,1,Query,set autocommit=0
+2024-05-17 17:04:09.740429,thaituan[thaituan] @ localhost [127.0.0.1],20,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 17:04:10.082303,thaituan[thaituan] @ localhost [127.0.0.1],20,1,Quit,
+2024-05-17 17:09:31.347581,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"SELECT current_user()
+LIMIT 0, 1000"
+2024-05-17 17:09:31.362987,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 17:09:31.388412,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 51
+2024-05-17 17:09:31.390753,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 51
+2024-05-17 17:09:52.887229,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"select * from mysql.user
+LIMIT 0, 1000"
+2024-05-17 17:09:52.899774,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 17:09:52.903350,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 53
+2024-05-17 17:09:52.905752,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 53
+2024-05-17 17:09:52.908632,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW INDEX FROM `mysql`.`user`
+2024-05-17 17:19:39.322208,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"SELECT event_time, user_host, argument 
+FROM mysql.general_log 
+WHERE command_type = 'Connect' OR command_type = 'Quit'
+LIMIT 0, 1000"
+2024-05-17 17:19:39.347663,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 17:19:39.350141,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 57
+2024-05-17 17:19:39.351983,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 57
+2024-05-17 17:19:39.354226,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW INDEX FROM `mysql`.`general_log`
+2024-05-17 17:20:00.740924,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"SELECT event_time, user_host, argument 
+FROM mysql.general_log 
+WHERE command_type = 'Connect' OR command_type = 'Quit'
+LIMIT 0, 1000"
+2024-05-17 17:20:00.754101,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 17:20:00.756731,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 59
+2024-05-17 17:20:00.759955,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 59
+2024-05-17 17:20:00.766853,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW INDEX FROM `mysql`.`general_log`
+2024-05-17 17:22:52.737590,thaituan[thaituan] @ localhost [127.0.0.1],9,1,Query,"SELECT user, host, db, command, time 
+FROM information_schema.processlist
+LIMIT 0, 1000"
+2024-05-17 17:22:52.759980,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_statements_current st JOIN performance_schema.threads thr ON thr.thread_id = st.thread_id WHERE thr.processlist_id = 9
+2024-05-17 17:22:52.765178,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_stages_history_long st WHERE st.nesting_event_id = 61
+2024-05-17 17:22:52.767605,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SELECT st.* FROM performance_schema.events_waits_history_long st WHERE st.nesting_event_id = 61
+2024-05-17 17:22:52.779430,thaituan[thaituan] @ localhost [127.0.0.1],14,1,Query,SHOW INDEX FROM `information_schema`.`processlist`
+2024-05-17 17:42:10.683735,[thaituan] @ localhost [127.0.0.1],21,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 17:42:10.687813,thaituan[thaituan] @ localhost [127.0.0.1],21,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 17:42:10.688280,thaituan[thaituan] @ localhost [127.0.0.1],21,1,Query,SET NAMES utf8mb4
+2024-05-17 17:42:10.688561,thaituan[thaituan] @ localhost [127.0.0.1],21,1,Query,set autocommit=0
+2024-05-17 17:42:10.690430,thaituan[thaituan] @ localhost [127.0.0.1],21,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 17:42:10.771013,thaituan[thaituan] @ localhost [127.0.0.1],21,1,Quit,
+2024-05-17 17:46:03.513429,[thaituan] @ localhost [127.0.0.1],22,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 17:46:03.514389,thaituan[thaituan] @ localhost [127.0.0.1],22,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 17:46:03.514710,thaituan[thaituan] @ localhost [127.0.0.1],22,1,Query,SET NAMES utf8mb4
+2024-05-17 17:46:03.514890,thaituan[thaituan] @ localhost [127.0.0.1],22,1,Query,set autocommit=0
+2024-05-17 17:46:03.515277,thaituan[thaituan] @ localhost [127.0.0.1],22,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 17:46:03.612113,thaituan[thaituan] @ localhost [127.0.0.1],22,1,Quit,
+2024-05-17 17:50:35.682301,[thaituan] @ localhost [127.0.0.1],23,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 17:50:35.684534,thaituan[thaituan] @ localhost [127.0.0.1],23,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 17:50:35.686087,thaituan[thaituan] @ localhost [127.0.0.1],23,1,Query,SET NAMES utf8mb4
+2024-05-17 17:50:35.686387,thaituan[thaituan] @ localhost [127.0.0.1],23,1,Query,set autocommit=0
+2024-05-17 17:50:35.686893,thaituan[thaituan] @ localhost [127.0.0.1],23,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 17:50:40.655751,thaituan[thaituan] @ localhost [127.0.0.1],23,1,Quit,
+2024-05-17 17:55:05.190452,[thaituan] @ localhost [127.0.0.1],24,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 17:55:05.191377,thaituan[thaituan] @ localhost [127.0.0.1],24,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 17:55:05.191677,thaituan[thaituan] @ localhost [127.0.0.1],24,1,Query,SET NAMES utf8mb4
+2024-05-17 17:55:05.191856,thaituan[thaituan] @ localhost [127.0.0.1],24,1,Query,set autocommit=0
+2024-05-17 17:55:05.192222,thaituan[thaituan] @ localhost [127.0.0.1],24,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
+2024-05-17 17:55:09.221642,thaituan[thaituan] @ localhost [127.0.0.1],24,1,Quit,
+2024-05-17 17:55:11.708753,[thaituan] @ localhost [127.0.0.1],25,1,Connect,thaituan@localhost on testdb using SSL/TLS
+2024-05-17 17:55:11.710896,thaituan[thaituan] @ localhost [127.0.0.1],25,1,Query,SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+2024-05-17 17:55:11.713095,thaituan[thaituan] @ localhost [127.0.0.1],25,1,Query,SET NAMES utf8mb4
+2024-05-17 17:55:11.713345,thaituan[thaituan] @ localhost [127.0.0.1],25,1,Query,set autocommit=0
+2024-05-17 17:55:11.713808,thaituan[thaituan] @ localhost [127.0.0.1],25,1,Query,"SELECT event_time, user_host, thread_id, server_id, command_type, argument FROM mysql.general_log"
