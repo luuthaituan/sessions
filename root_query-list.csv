@@ -1,0 +1,23 @@
+Time,User,Thread ID,Server ID,Command,Argument
+2024-05-17 06:58:12.680843,root[root] @ localhost [],8,1,Query,create database testdb
+2024-05-17 06:58:16.686874,root[root] @ localhost [],8,1,Query,SELECT DATABASE()
+2024-05-17 06:58:16.687435,root[root] @ localhost [],8,1,Init DB,testdb
+2024-05-17 06:58:16.688890,root[root] @ localhost [],8,1,Query,show databases
+2024-05-17 06:58:16.695042,root[root] @ localhost [],8,1,Query,show tables
+2024-05-17 06:58:22.157903,root[root] @ localhost [],8,1,Query,SELECT DATABASE()
+2024-05-17 06:58:22.160455,root[root] @ localhost [],8,1,Init DB,testdb
+2024-05-17 06:58:29.965428,root[root] @ localhost [],8,1,Query,"CREATE TABLE `general_log` (
+   `event_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+                          ON UPDATE CURRENT_TIMESTAMP,
+   `user_host` mediumtext NOT NULL,
+   `thread_id` bigint(21) unsigned NOT NULL,
+   `server_id` int(10) unsigned NOT NULL,
+   `command_type` varchar(64) NOT NULL,
+   `argument` mediumtext NOT NULL
+  ) ENGINE=CSV DEFAULT CHARSET=utf8 COMMENT='General log'"
+2024-05-17 06:58:38.515042,root[root] @ localhost [],8,1,Query,SET global general_log = 1
+2024-05-17 06:58:47.640519,root[root] @ localhost [],8,1,Query,"SELECT
+    *
+FROM
+    mysql.general_log"
+2024-05-17 06:59:58.503942,root[root] @ localhost [],8,1,Quit,
